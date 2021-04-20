@@ -29,8 +29,10 @@ public class Trial {
         System.out.print("Введите пароль: ");
         String pass = ent.next();// Ожидаем ввод пользователя
 
-        if (login.equals("admin") && pass.equals("1234")){
+        if (login.equals("admin") && pass.equals("1234")) {
             // Если логин "admin" и пароль "1234", то выполняем инструкции в скобках.
+            System.out.println("Доступ разрешён");
+        }else if(login.equals("user") && pass.equals("4321")){
             System.out.println("Доступ разрешён");
         }else{
             System.out.println("Доступ запрещён");
