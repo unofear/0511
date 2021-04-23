@@ -4,7 +4,7 @@ public class Trial_2 {
             for (int k = 1; k < 11; k++) {
                 System.out.print(k * i + "  ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
