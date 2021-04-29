@@ -1,4 +1,4 @@
-public class Trial {
+public class Trial_2 {
     public static void main(String[] args) {
         int a,b;
         a = 8;
@@ -13,6 +13,6 @@ public class Trial {
         System.out.println(s+" "+"разности: " +sub);
         System.out.println(s+" "+"произведения: " +mult);
         System.out.println(s+" "+"частного: " +div);
-        System.out.println(s+" "+"возведение в квадрат: " +sqr);
+        System.out.println(s+" "+"возведения в квадрат: " +sqr);
     }
 }
